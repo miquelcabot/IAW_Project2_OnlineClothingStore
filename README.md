@@ -1,6 +1,10 @@
 # IAW_Project1_OnlineClothingStore
 IAW - Project 1 - Online Clothing Store
 
+## Permisos fitxers
+sudo chmod -R go+w .
+Perque els crea l'usuari www-data, i no tenim Permisos
+
 ## Fer mysql persistent
 volumes: ['./db_data:/var/lib/mysql']
 
