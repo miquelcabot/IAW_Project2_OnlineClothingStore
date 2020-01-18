@@ -17,3 +17,8 @@ define('WP_SITEURL','https://8080-dot-4382183-dot-devshell.appspot.com');
 
 A wp-config.php, afegir, per evitar redirecció a 127.0.0.1 (https://stackoverflow.com/questions/37149842/redirect-to-127-0-0-1-when-access-a-wordpress-hosted-with-apache-and-nginx-in-pr):
 $_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
+
+## Entrar per terminal a mysql
+docker exec -it b07 bash
+mysql -u wordpress -p
+show databases
