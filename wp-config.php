@@ -98,3 +98,6 @@ require_once( ABSPATH . 'wp-settings.php' );
 define('WP_HOME','https://8080-dot-4382183-dot-devshell.appspot.com');
 define('WP_SITEURL','https://8080-dot-4382183-dot-devshell.appspot.com');
 
+
+$_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
+
