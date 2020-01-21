@@ -2,7 +2,9 @@
 IAW - Project 1 - Online Clothing Store
 
 ## Permisos fitxers
-```sudo chmod -R go+w .```
+```
+sudo chmod -R go+w .
+```
 Perque els crea l'usuari www-data, i no tenim permisos
 
 ## Fer mysql persistent
