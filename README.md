@@ -31,3 +31,7 @@ docker exec -it b07 bash
 mysql -u wordpress -p
 show databases
 ```
+## Executar docker
+```
+docker-compose up -d
+```
